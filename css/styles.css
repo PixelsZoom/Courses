@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: "Cera Round";
-    src: url(/fonts/CeraMedium.otf);
+    src: url("/fonts/CeraMedium.otf");
 }
 
 
@@ -24,6 +24,7 @@ body{
 
 .head{
     display:flex;
+    flex-direction: row;
     align-items: center;
     background-color: beige;
     padding: 15px;
